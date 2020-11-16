@@ -1,0 +1,4 @@
+logging:
+  level:
+    org.springframework.statemachine: INFO
+    org.springframework.statemachine.service: WARN

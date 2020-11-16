@@ -1,0 +1,17 @@
+package lviv.javaclub.order.saga;
+
+public enum  OrderEvent {
+
+    PLACE_NEW_ORDER,
+    ORDER_PAYED,
+    START_PROCESSING,
+    ORDER_DELIVERED,
+
+    AGENT_ASSIGNED,
+    AGENT_ARRIVED_TO_KITCHEN,
+    AGENT_OUT_FOR_DELIVERY,
+
+    KITCHEN_COOKING,
+    KITCHEN_READY
+
+}
